@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiscalización RENAPER</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --navy:#0b2a5b; --blue:#1f5fbf; --sky:#e9f0fb; --ink:#16243d; --muted:#5b6b85; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:#f4f7fc; font-family:"Segoe UI", Roboto, Arial, sans-serif; color:var(--ink); }
+  header { background:var(--navy); color:#fff; padding:28px 16px 26px; text-align:center; position:relative; }
+  header::after { content:""; position:absolute; left:0; right:0; bottom:0; height:6px;
+    background:linear-gradient(90deg,#74acdf 0 33.3%,#fff 33.3% 66.6%,#74acdf 66.6%); }
+  .org { font-size:13px; letter-spacing:4px; font-weight:700; opacity:.85; }
+  h1 { font-size:24px; line-height:1.2; margin-top:8px; }
+  main { max-width:900px; margin:0 auto; padding:20px 16px 40px; display:grid; gap:24px; }
+  section { background:#fff; border-radius:12px; box-shadow:0 1px 4px rgba(11,42,91,.12); overflow:hidden; }
+  h2 { font-size:17px; padding:14px 16px; border-left:6px solid var(--blue); background:var(--sky); }
+  h2 span { color:var(--blue); margin-right:6px; }
+  .img { display:block; width:100%; height:auto; }
+  .pdf { display:block; width:100%; height:80vh; min-height:520px; border:0; }
+  .alt { display:block; text-align:center; font-size:14px; padding:12px; color:var(--blue); }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding-bottom:30px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="org">RENAPER · DPFCD</div>
+    <h1>Fiscalización de Centros de Documentación</h1>
+  </header>
+  <main>
+    <section>
+      <h2><span>1</span>Personal autorizado para fiscalizar</h2>
+      <img class="img" alt="Nómina del personal autorizado para fiscalizar"
+        src="https://lh3.googleusercontent.com/d/1ro2XWgwYdA5ziYhok4ay7HX0LivnTCYD=w1600"
+        onerror="this.onerror=null;this.src='https://drive.google.com/thumbnail?id=1ro2XWgwYdA5ziYhok4ay7HX0LivnTCYD&sz=w1600'">
+    </section>
+    <section>
+      <h2><span>2</span>Disposición DI-2026-85019385-APN-RENAPER#MI</h2>
+      <iframe class="pdf" title="Disposición" loading="lazy" allow="autoplay"
+        src="https://drive.google.com/file/d/1bXt8BHJ0azk97rsZs-zd8J0o4WnR7n_0/preview"></iframe>
+    </section>
+  </main>
+  <footer>Dirección DPFCD · RENAPER</footer>
+</body>
+</html>
