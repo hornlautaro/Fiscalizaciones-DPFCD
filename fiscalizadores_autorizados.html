@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiscalizadores Autorizados</title>
+<style>
+  :root { --navy:#0b2a5b; --blue:#1f5fbf; --sky:#e9f0fb; --line:#d5deec; --ink:#16243d; --muted:#5b6b85; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { width:1080px; background:#ffffff; font-family:"Segoe UI", Arial, sans-serif; color:var(--ink); }
+  .head { background:var(--navy); color:#fff; padding:56px 64px 48px; position:relative; }
+  .head::after { content:""; position:absolute; left:0; right:0; bottom:0; height:10px;
+    background:linear-gradient(90deg,#74acdf 0 33.3%,#ffffff 33.3% 66.6%,#74acdf 66.6%); }
+  .org { font-size:30px; letter-spacing:6px; font-weight:700; opacity:.85; }
+  h1 { font-size:58px; line-height:1.1; margin-top:18px; font-weight:800; }
+  .sub { font-size:28px; margin-top:16px; opacity:.9; }
+  .sub b { color:#9cc6f2; }
+  .body { padding:44px 64px 30px; }
+  table { width:100%; border-collapse:collapse; font-size:30px; }
+  thead th { text-align:left; font-size:22px; letter-spacing:3px; color:var(--muted); font-weight:700;
+    padding:0 20px 14px; border-bottom:3px solid var(--navy); }
+  thead th.dni { text-align:right; }
+  tbody td { padding:20px 20px; border-bottom:1px solid var(--line); }
+  tbody tr:nth-child(even) td { background:var(--sky); }
+  td.n { width:70px; color:var(--blue); font-weight:700; font-size:24px; }
+  td.name b { font-weight:700; text-transform:uppercase; }
+  td.dni { text-align:right; font-variant-numeric:tabular-nums; font-weight:600; white-space:nowrap; }
+  .foot { margin:34px 64px 56px; padding:26px 30px; border-left:8px solid var(--blue); background:var(--sky);
+    font-size:24px; line-height:1.45; color:var(--ink); }
+  .foot .date { margin-top:10px; color:var(--muted); font-size:22px; }
+</style>
+</head>
+<body>
+  <div class="head">
+    <div class="org">RENAPER · DPFCD</div>
+    <h1>Personal autorizado<br>para Fiscalizar</h1>
+    <div class="sub">Nómina oficial de agentes habilitados · <b>14 personas</b></div>
+  </div>
+  <div class="body">
+    <table>
+      <thead><tr><th>#</th><th>Apellido y Nombre</th><th class="dni">DNI</th></tr></thead>
+      <tbody>
+        <tr><td class="n">01</td><td class="name"><b>Berdú</b>, Mario Enrique</td><td class="dni">13.265.380</td></tr>
+        <tr><td class="n">02</td><td class="name"><b>Bizzi</b>, Sergio Gabriel</td><td class="dni">18.122.553</td></tr>
+        <tr><td class="n">03</td><td class="name"><b>Comerci Apaldetti</b>, Daniela</td><td class="dni">20.404.826</td></tr>
+        <tr><td class="n">04</td><td class="name"><b>Cora</b>, Andrea Verónica</td><td class="dni">22.863.402</td></tr>
+        <tr><td class="n">05</td><td class="name"><b>Cornejo</b>, María Constanza</td><td class="dni">14.886.696</td></tr>
+        <tr><td class="n">06</td><td class="name"><b>Cornejo</b>, María Laura</td><td class="dni">12.888.259</td></tr>
+        <tr><td class="n">07</td><td class="name"><b>García</b>, Andrea Elizabeth</td><td class="dni">23.087.155</td></tr>
+        <tr><td class="n">08</td><td class="name"><b>Horn</b>, Lautaro</td><td class="dni">46.557.338</td></tr>
+        <tr><td class="n">09</td><td class="name"><b>Moya Newman</b>, Santiago</td><td class="dni">40.093.984</td></tr>
+        <tr><td class="n">10</td><td class="name"><b>Nagy</b>, Adolfo Miguel</td><td class="dni">14.872.702</td></tr>
+        <tr><td class="n">11</td><td class="name"><b>Rodríguez Cornejo</b>, Cecilia</td><td class="dni">35.146.388</td></tr>
+        <tr><td class="n">12</td><td class="name"><b>Rosenberg</b>, Hernán</td><td class="dni">20.350.522</td></tr>
+        <tr><td class="n">13</td><td class="name"><b>Sotillo</b>, Laura Ivana</td><td class="dni">32.260.738</td></tr>
+        <tr><td class="n">14</td><td class="name"><b>Tomassi</b>, Roxana</td><td class="dni">17.856.343</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="foot">
+    Verifique que el DNI del agente coincida con el de esta nómina antes de permitir la fiscalización.
+    <div class="date">Dirección DPFCD · RENAPER — Actualizado: septiembre 2026</div>
+  </div>
+</body>
+</html>
